@@ -1,0 +1,49 @@
+@media screen and (max-width:1400px) {
+    #profile{
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+
+    .section-container{
+        flex-wrap: wrap;
+
+    }
+
+    #contact,
+    #projects {
+      height: fit-content;
+    }
+}
+
+
+
+@media screen and (max-width:1200px) {
+    #desktop-nav{
+        display: none;
+    }
+    #mobile-nav{
+        display: flex;
+    }
+    #experience, .experience-details-container{
+        margin-top: 2rem;
+    }
+    #profile,.section-container{
+        display: block;
+    }
+    .arrow{
+        display: none;
+    }
+    section,.section-container{
+        height: fit-content;
+    }
+    section{
+        margin:0.5%;
+    }
+    .pic-container{
+        width: 140px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    
+
+}
